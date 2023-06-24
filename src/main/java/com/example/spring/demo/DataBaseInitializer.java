@@ -28,7 +28,8 @@ public class DataBaseInitializer implements CommandLineRunner {
                 .lastName("Krala")
                 .build();
 
-        userRepository.save(user);
+        User savedUser = userRepository.save(user);
+        System.out.println(savedUser.toString());
 
     }
 }
