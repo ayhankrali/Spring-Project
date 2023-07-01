@@ -76,19 +76,25 @@ json
 
 Copy code
 {
-  "email": "john@example.com",
-  "lastname": "Doe",
-  "firstname": "John",
+  "email": "ayhan@gmail.com",
+  "lastname": "Ayhan",
+  "firstname": "Krala",
   "password": "password"
 }
-Retrieving Users
+
+RETRIEVERING USERS
+
 To retrieve all users, send a GET request to the /users endpoint.
+
 To retrieve a specific user by ID, send a GET request to the /users/{id} endpoint.
+
 To retrieve users by email, send a GET request to the /users?email={email} endpoint.
-Updating a User
+
+UPDATING A USER
 To update a user, send a PUT request to the /users/{id} endpoint with the updated user details in the JSON payload.
 
-Deleting a User
+DELETING A USER
 To delete a user, send a DELETE request to the /users/{id} endpoint.
 
 For more detailed API documentation, refer to the API Reference.
+
